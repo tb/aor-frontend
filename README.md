@@ -4,6 +4,10 @@
     cd client
     npm i
 
+Run tests
+
+    npm test
+
 Start dev server
 
     npm start
