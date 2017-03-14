@@ -1,6 +1,6 @@
-# Perfectly simple Webpack 2 setup
+# aor-frontend
 
-    git clone git@github.com:tb/perfectly-simple-webpack-starter.git client 
+    git clone git@github.com:tb/aor-frontend.git client
     cd client
     npm i
 
