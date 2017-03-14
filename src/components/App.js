@@ -1,6 +1,6 @@
 import React from 'react';
 import { Admin, Resource } from 'admin-on-rest';
-import { authClient, restClient } from '../aor-feathers-client';
+import { authClient, restClient } from 'aor-feathers-client';
 
 import feathersClient from '../feathersClient';
 import * as projects from './Projects';
