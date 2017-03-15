@@ -4,6 +4,7 @@ import { authClient, restClient } from 'aor-feathers-client';
 
 import feathersClient from '../feathersClient';
 import * as projects from './Projects';
+import * as tasks from './Tasks';
 
 const authClientOptions = {
   storageKey: 'feathers-jwt',
@@ -16,6 +17,7 @@ const App = () => (
     restClient={restClient(feathersClient)}
   >
     <Resource name="projects" {...projects} />
+    <Resource name="tasks" {...tasks} />
   </Admin>
 );
 
